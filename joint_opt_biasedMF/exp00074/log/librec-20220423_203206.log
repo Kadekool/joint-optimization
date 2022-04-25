@@ -1,0 +1,160 @@
+22/04/23 20:32:06 INFO TextDataConvertor: Dataset: [data/rating_5000_cls_hc_10core_iterative.csv]
+22/04/23 20:32:06 INFO TextDataConvertor: DataSet: ...ng_5000_cls_hc_10core_iterative.csv is finished
+22/04/23 20:32:06 INFO TextDataConvertor: rating Scale: [3.0, 4.0, 5.0]
+22/04/23 20:32:06 INFO TextDataConvertor: user number: 4005,	 item number is: 2673
+22/04/23 20:32:06 INFO TextDataModel: Transform data to Convertor successfully!
+22/04/23 20:32:07 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/23 20:32:07 INFO TextDataModel: Feature appender loaded successfully!
+22/04/23 20:32:07 INFO TextDataConvertor: Dataset: [data/split/cv_1/train.txt]
+22/04/23 20:32:07 INFO TextDataConvertor: DataSet: data/split/cv_1/train.txt is finished
+22/04/23 20:32:07 INFO TextDataConvertor: rating Scale: [3.0, 4.0, 5.0]
+22/04/23 20:32:07 INFO TextDataConvertor: user number: 4005,	 item number is: 2673
+22/04/23 20:32:07 INFO TextDataModel: Transform data to Convertor successfully!
+22/04/23 20:32:07 INFO TextDataConvertor: Dataset: [data/split/cv_1/test.txt]
+22/04/23 20:32:07 INFO TextDataConvertor: DataSet: data/split/cv_1/test.txt is finished
+22/04/23 20:32:07 INFO TextDataConvertor: rating Scale: [3.0, 4.0, 5.0]
+22/04/23 20:32:07 INFO TextDataConvertor: user number: 4005,	 item number is: 2673
+22/04/23 20:32:07 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/23 20:32:07 INFO TextDataModel: Data cardinality of training is 73580
+22/04/23 20:32:07 INFO TextDataModel: Data cardinality of testing is 36791
+22/04/23 20:32:07 INFO TextDataModel: Feature appender loaded successfully!
+22/04/23 20:32:07 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 1.
+22/04/23 20:32:07 INFO BiasedMFRecommender: Job Setup completed.
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 6245.033999778708, delta_loss = -6245.034
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 5911.9549743963225, delta_loss = 333.07904
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 5751.911062290187, delta_loss = 160.04391
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 5644.730399036042, delta_loss = 107.180664
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 5566.053764216961, delta_loss = 78.676636
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 5505.9321964935425, delta_loss = 60.121567
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 5458.918273901318, delta_loss = 47.013924
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 5421.575808036844, delta_loss = 37.342464
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 5391.565911720666, delta_loss = 30.009897
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 5367.221709787999, delta_loss = 24.344202
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 11: loss = 5347.31829876901, delta_loss = 19.903412
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 12: loss = 5330.935487771615, delta_loss = 16.38281
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 13: loss = 5317.370251742543, delta_loss = 13.565236
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 14: loss = 5306.078193602462, delta_loss = 11.292058
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 15: loss = 5296.633020385651, delta_loss = 9.445173
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 16: loss = 5288.697736712729, delta_loss = 7.9352837
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 17: loss = 5282.003734570607, delta_loss = 6.694002
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 18: loss = 5276.335353916632, delta_loss = 5.6683807
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 19: loss = 5271.518319053819, delta_loss = 4.8170347
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 20: loss = 5267.410971589101, delta_loss = 4.1073475
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 21: loss = 5263.89755271518, delta_loss = 3.513419
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 22: loss = 5260.883007337256, delta_loss = 3.0145454
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 23: loss = 5258.288931487882, delta_loss = 2.594076
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 24: loss = 5256.050387533329, delta_loss = 2.238544
+22/04/23 20:32:07 INFO BiasedMFRecommender: BiasedMFRecommender iter 25: loss = 5254.113384141841, delta_loss = 1.9370034
+22/04/23 20:32:07 INFO BiasedMFRecommender: Job Train completed.
+22/04/23 20:32:07 INFO RecommenderJob: ExpCMD: COMPLETE
+22/04/23 20:32:07 INFO RecommenderJob: EvalCMD: START
+22/04/23 20:32:07 INFO BiasedMFRecommender: begin recommend
+22/04/23 20:32:08 INFO BiasedMFRecommender: end recommend
+22/04/23 20:32:08 INFO RecommenderJob: Evaluator info:NormalizedDCGEvaluator is 0.03165871214773682
+22/04/23 20:32:08 INFO RecommenderJob: Evaluator info:PStatisticalParityEvaluator is -0.7048746238716492
+22/04/23 20:32:08 INFO BiasedMFRecommender: begin recommend
+22/04/23 20:32:08 INFO BiasedMFRecommender: end recommend
+22/04/23 20:32:08 INFO RecommenderJob: Result path is exp00074/result/out-1.txt
+22/04/23 20:32:08 INFO RecommenderJob: EvalCMD: COMPLETE.
+22/04/23 20:32:08 INFO TextDataConvertor: Dataset: [data/split/cv_2/train.txt]
+22/04/23 20:32:08 INFO TextDataConvertor: DataSet: data/split/cv_2/train.txt is finished
+22/04/23 20:32:08 INFO TextDataConvertor: rating Scale: [3.0, 4.0, 5.0]
+22/04/23 20:32:08 INFO TextDataConvertor: user number: 4005,	 item number is: 2673
+22/04/23 20:32:08 INFO TextDataModel: Transform data to Convertor successfully!
+22/04/23 20:32:08 INFO TextDataConvertor: Dataset: [data/split/cv_2/test.txt]
+22/04/23 20:32:08 INFO TextDataConvertor: DataSet: data/split/cv_2/test.txt is finished
+22/04/23 20:32:08 INFO TextDataConvertor: rating Scale: [3.0, 4.0, 5.0]
+22/04/23 20:32:08 INFO TextDataConvertor: user number: 4005,	 item number is: 2673
+22/04/23 20:32:09 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/23 20:32:09 INFO TextDataModel: Data cardinality of training is 73581
+22/04/23 20:32:09 INFO TextDataModel: Data cardinality of testing is 36790
+22/04/23 20:32:09 INFO TextDataModel: Feature appender loaded successfully!
+22/04/23 20:32:09 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 2.
+22/04/23 20:32:09 INFO BiasedMFRecommender: Job Setup completed.
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 6080.019618672512, delta_loss = -6080.0195
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 5759.244007921478, delta_loss = 320.7756
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 5604.355572967194, delta_loss = 154.88843
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 5501.423963491412, delta_loss = 102.93161
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 5426.451565664205, delta_loss = 74.9724
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 5369.516704996639, delta_loss = 56.93486
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 5325.205757606637, delta_loss = 44.310947
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 5290.1330372282155, delta_loss = 35.07272
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 5262.015643987687, delta_loss = 28.117393
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 5239.241261232459, delta_loss = 22.774384
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 11: loss = 5220.634902858455, delta_loss = 18.606358
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 12: loss = 5205.320461219643, delta_loss = 15.314442
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 13: loss = 5192.632999797219, delta_loss = 12.687462
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 14: loss = 5182.060559325686, delta_loss = 10.57244
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 15: loss = 5173.2041995339505, delta_loss = 8.8563595
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 16: loss = 5165.74982834158, delta_loss = 7.454371
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 17: loss = 5159.447918318059, delta_loss = 6.30191
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 18: loss = 5154.098646235149, delta_loss = 5.3492723
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 19: loss = 5149.540844479516, delta_loss = 4.5578017
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 20: loss = 5145.643681362147, delta_loss = 3.8971632
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 21: loss = 5142.300325816359, delta_loss = 3.3433557
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 22: loss = 5139.4230748044065, delta_loss = 2.877251
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 23: loss = 5136.939571947607, delta_loss = 2.4835029
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 24: loss = 5134.789849018627, delta_loss = 2.1497228
+22/04/23 20:32:09 INFO BiasedMFRecommender: BiasedMFRecommender iter 25: loss = 5132.923994005641, delta_loss = 1.865855
+22/04/23 20:32:09 INFO BiasedMFRecommender: Job Train completed.
+22/04/23 20:32:09 INFO RecommenderJob: ExpCMD: COMPLETE
+22/04/23 20:32:09 INFO RecommenderJob: EvalCMD: START
+22/04/23 20:32:09 INFO BiasedMFRecommender: begin recommend
+22/04/23 20:32:09 INFO BiasedMFRecommender: end recommend
+22/04/23 20:32:09 INFO RecommenderJob: Evaluator info:NormalizedDCGEvaluator is 0.03373399989604127
+22/04/23 20:32:09 INFO RecommenderJob: Evaluator info:PStatisticalParityEvaluator is -0.8460140562249447
+22/04/23 20:32:09 INFO BiasedMFRecommender: begin recommend
+22/04/23 20:32:09 INFO BiasedMFRecommender: end recommend
+22/04/23 20:32:09 INFO RecommenderJob: Result path is exp00074/result/out-2.txt
+22/04/23 20:32:09 INFO RecommenderJob: EvalCMD: COMPLETE.
+22/04/23 20:32:09 INFO TextDataConvertor: Dataset: [data/split/cv_3/train.txt]
+22/04/23 20:32:09 INFO TextDataConvertor: DataSet: data/split/cv_3/train.txt is finished
+22/04/23 20:32:09 INFO TextDataConvertor: rating Scale: [3.0, 4.0, 5.0]
+22/04/23 20:32:09 INFO TextDataConvertor: user number: 4005,	 item number is: 2673
+22/04/23 20:32:09 INFO TextDataModel: Transform data to Convertor successfully!
+22/04/23 20:32:09 INFO TextDataConvertor: Dataset: [data/split/cv_3/test.txt]
+22/04/23 20:32:09 INFO TextDataConvertor: DataSet: data/split/cv_3/test.txt is finished
+22/04/23 20:32:09 INFO TextDataConvertor: rating Scale: [3.0, 4.0, 5.0]
+22/04/23 20:32:09 INFO TextDataConvertor: user number: 4005,	 item number is: 2673
+22/04/23 20:32:10 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/23 20:32:10 INFO TextDataModel: Data cardinality of training is 73581
+22/04/23 20:32:10 INFO TextDataModel: Data cardinality of testing is 36790
+22/04/23 20:32:10 INFO TextDataModel: Feature appender loaded successfully!
+22/04/23 20:32:10 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 3.
+22/04/23 20:32:10 INFO BiasedMFRecommender: Job Setup completed.
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 1: loss = 6302.368682994635, delta_loss = -6302.3687
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 2: loss = 5973.773328932805, delta_loss = 328.59537
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 3: loss = 5816.986566494102, delta_loss = 156.78676
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 4: loss = 5712.623830384036, delta_loss = 104.36274
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 5: loss = 5636.288549819143, delta_loss = 76.33528
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 6: loss = 5578.056223932513, delta_loss = 58.232327
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 7: loss = 5532.553715806924, delta_loss = 45.502506
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 8: loss = 5496.422839665804, delta_loss = 36.130875
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 9: loss = 5467.3901540549505, delta_loss = 29.032686
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 10: loss = 5443.839772288899, delta_loss = 23.550383
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 11: loss = 5424.585610832335, delta_loss = 19.254162
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 12: loss = 5408.736978550329, delta_loss = 15.848632
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 13: loss = 5395.613439108624, delta_loss = 13.123539
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 14: loss = 5384.688096868129, delta_loss = 10.925343
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 15: loss = 5375.548397513563, delta_loss = 9.139699
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 16: loss = 5367.868269877206, delta_loss = 7.6801276
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 17: loss = 5361.387894165166, delta_loss = 6.480376
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 18: loss = 5355.898751319645, delta_loss = 5.489143
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 19: loss = 5351.232415768684, delta_loss = 4.6663356
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 20: loss = 5347.2520522564, delta_loss = 3.9803636
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 21: loss = 5343.845897028226, delta_loss = 3.406155
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 22: loss = 5340.922214651543, delta_loss = 2.9236825
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 23: loss = 5338.405364895008, delta_loss = 2.5168498
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 24: loss = 5336.232712988428, delta_loss = 2.172652
+22/04/23 20:32:10 INFO BiasedMFRecommender: BiasedMFRecommender iter 25: loss = 5334.352186439846, delta_loss = 1.8805265
+22/04/23 20:32:10 INFO BiasedMFRecommender: Job Train completed.
+22/04/23 20:32:10 INFO RecommenderJob: ExpCMD: COMPLETE
+22/04/23 20:32:10 INFO RecommenderJob: EvalCMD: START
+22/04/23 20:32:10 INFO BiasedMFRecommender: begin recommend
+22/04/23 20:32:10 INFO BiasedMFRecommender: end recommend
+22/04/23 20:32:10 INFO RecommenderJob: Evaluator info:NormalizedDCGEvaluator is 0.03567895581081036
+22/04/23 20:32:10 INFO RecommenderJob: Evaluator info:PStatisticalParityEvaluator is -0.7842044600351403
+22/04/23 20:32:10 INFO BiasedMFRecommender: begin recommend
+22/04/23 20:32:10 INFO BiasedMFRecommender: end recommend
+22/04/23 20:32:10 INFO RecommenderJob: Result path is exp00074/result/out-3.txt
+22/04/23 20:32:10 INFO RecommenderJob: EvalCMD: COMPLETE.
